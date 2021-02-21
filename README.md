@@ -9,6 +9,17 @@ Contenido de las implementaciones
 
 ## Características
 
+## Base de datos
+Recopilación de TEAs en Excel
+![img](Readme-imagenes/TEAs.jpg)
+Configuración con los siguientes parámetros:
+| Parámetros | Valores |
+| ------ | ------ |
+| host | localhost |
+| user | root |
+| passwd | admin |
+| database | tecnicasdb |
+
 
 ## Instalaciones
 
