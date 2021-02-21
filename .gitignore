@@ -351,3 +351,6 @@ MigrationBackup/
 
 #csv files
 *.csv
+
+#database SQL files
+*.sql
