@@ -2,17 +2,19 @@
 ## Contenido
 Contenido de las implementaciones
 
-- 0.- Réplicas o pruebas
-- 1.- Lectura a la base de datos
-- 2.- Filtros basado en contenidos
-- 3.- Filtros colaborativos
+- Réplicas o pruebas
+- Lectura a la base de datos
+- Filtros basado en contenidos
+- Filtros colaborativos
 
 ## Características
 
 ## Base de datos
-Recopilación de TEAs en Excel
+### Recopilación de TEAs en Excel
+
 ![img](Readme-imagenes/TEAs.jpg)
-Configuración con los siguientes parámetros:
+### Configuración con los siguientes parámetros:
+
 | Parámetros | Valores |
 | ------ | ------ |
 | host | localhost |
