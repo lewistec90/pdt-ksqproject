@@ -2,8 +2,8 @@
 import mysql.connector
 
 # Implementaciones
-# schema = 'techniques' # En español
-schema = 'techniques_eng' # En ingles
+schema = 'techniques' # SPANISH
+# schema = 'techniques_eng' # ENGLISH
 
 db = mysql.connector.connect(
     host="localhost",
@@ -110,7 +110,8 @@ def save_csv(data_buffer):
     Args:
         data_buffer (string): Datos separados de la BD
     """
-    filename = 'NEW_pipes_data_test.csv'
+    # filename = 'NEW_pipes_data_test.csv' #english
+    filename = 'NEW_pipes_data_test_es.csv' #spanish
     inputfile = open(filename, 'w', encoding='utf8')
     inputfile.write(data_buffer)
     inputfile.close()
